@@ -165,7 +165,7 @@ export default function Home() {
                         
                         <img
                           className="big-image"
-                          src="images/other/jc.jpg"
+                          src="images/other/mus.jpg"
                           alt=""
                         />
                       </>
