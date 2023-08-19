@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="em_body_navigation border-0 -active-links">
           <div className="item_link">
             <Link
-              href="/"
+              href="#"
               className="btn btn_navLink"
               aria-label="btnNavigation"
             >
@@ -23,7 +23,7 @@ export default function Footer() {
           </div>
           <div className="item_link">
             <Link
-              href="/recherche"
+              href="#"
               className="btn btn_navLink"
               aria-label="btnNavigation"
             >
