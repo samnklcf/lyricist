@@ -1,12 +1,12 @@
 {
-    "theme_color": "#FFF",
-    "background_color": "#fff",
+    "theme_color": "#000",
+    "background_color": "#000",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Alissa School",
-    "short_name": "Alissa School",
-    "description": "Application pour les apprenant",
+    "name": "Lyricist",
+    "short_name": "Lyricist",
+    "description": "Générer vos chansons",
     "icons": [
         {
             "src": "/icon-192x192.png",
