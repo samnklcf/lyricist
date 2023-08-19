@@ -181,7 +181,7 @@ export default function Home() {
                       
                       <br />
 
-                    <label>Ajouter vos idées</label>
+                    <label>Ajouter vos idées (Facultatif)</label>
                     <textarea 
                       type="text"
                       className="form-control"
