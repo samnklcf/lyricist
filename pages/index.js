@@ -29,7 +29,7 @@ export default function Home() {
             {/* ===================================
         START THE RANDOM NFTS
       ==================================== */}
-            <section className="unSwiper-cards margin-t-20">
+            <section className="unSwiper-cards margin-t-40">
               {/* un-title-default */}
               <div className="un-title-default">
                 <div className="text">
@@ -165,7 +165,7 @@ export default function Home() {
                         
                         <img
                           className="big-image"
-                          src="images/other/jc.jpg"
+                          src="images/other/mus.jpg"
                           alt=""
                         />
                       </>
