@@ -200,6 +200,28 @@ export default function Home() {
                     </div>
                   </Link>
 
+                  <Link
+                    href="/slam"
+                    className="item-sm-card-NFTs"
+                  >
+                    <div className="cover-image">
+                      <>
+                        
+                        <img
+                          className="big-image"
+                          src="images/other/mus.jpg"    
+                          alt=""
+                        />
+                      </>
+
+                      <d className="user-text">
+                        <div className="number-eth">
+                          <span className="main-price">Slam / poème</span>
+                        </div>
+                      </d>
+                    </div>
+                  </Link>
+
                   
 
 

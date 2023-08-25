@@ -17,9 +17,8 @@ export default function Home() {
   let langue = useRef();
   let theme = useRef();
   let emotion = useRef();
-  let couplet = useRef();
   let idea = useRef();
-  let rime = useRef();
+
 
   
 
@@ -46,13 +45,13 @@ export default function Home() {
 
     //     `,
         theme: `
-        Écris-moi une chanson chrétienne ${langue.current.value.toLowerCase()} sur le thème de "${theme.current.value}" qui évoque une émotion de ${emotion.current.value.toLowerCase()}. Imagine ${couplet.current.value} couplet(s) captivant(s) et ${rime.current.value === "Avec des rîmes" ? "enchanteur(s)" : "impactant(s)"}.
+        
+        Comportes-toi comme un slameur professionnel et Écris-moi un slam ${langue.current.value.toLowerCase()} sur le thème de "${theme.current.value}" qui évoque une émotion de ${emotion.current.value.toLowerCase()} et Avec des rîmes.
 
-        Dans cette chanson, explore l'idée de ${idea.current.value}. Utilise des métaphores et des images pour transmettre les émotions et les pensées.
+        Dans ce slam, inspire-toi de cette idée: ${idea.current.value}. Utilise des métaphores et des images pour transmettre les émotions et les pensées.
 
         Laisse libre cours à ta créativité, et n'hésite pas à jouer avec les mots pour créer quelque chose de vraiment spécial et unique.
 
-        J'ai hâte de voir ce que tu vas créer !
         `
       }),
     })
@@ -74,8 +73,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Musique chrétienne</title>
-        <meta name="description" content="Chant chrétien" />
+        <title>Slam</title>
+        <meta name="description" content="Slam" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -89,7 +88,7 @@ export default function Home() {
 
             <section className="un-page-components">
               <PageTitle
-                title="Chant chrétien"
+                title="Slam"
                 description="Remplissez le formulaire  "
               />
               <div className="content-comp p-0">
@@ -112,7 +111,7 @@ export default function Home() {
 
                     <br />
 
-                    <label>Thème du chant</label>
+                    <label>Thème du slam</label>
                     <input
                       type="text"
                       className="form-control"
@@ -147,41 +146,12 @@ export default function Home() {
 
                       
 
-                      <div className="content">
-                          <label>Nombre de couplets</label>
-                          <select
-                            className="form-select custom-select"
-                            aria-label="Default select example"
-                            ref={couplet}
-                          >
-                            <option value={1} >1</option>
-                            <option value={2}>2</option>
-                            <option value={3}>3</option>
-                            <option value={4}>4</option>
-                            
-                          </select>
-                        </div>
                       
-                      <br />
 
                     
-                      <div className="content">
-                          <label>Avec des rîmes?</label>
-                          <select
-                            className="form-select custom-select"
-                            aria-label="Default select example"
-                            ref={rime}
-                          >
-                            <option value={"Avec des rîmes"}>Oui</option>
-                            <option value={""}>Non</option>
-                            
-                            
-                          </select>
-                        </div>
                       
-                      <br />
 
-                    <label>AjouteZ vos idées (Facultatif)</label>
+                    <label>Ajoutez vos idées (Facultatif)</label>
                     <textarea 
                       type="text"
                       className="form-control"
