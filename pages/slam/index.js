@@ -32,18 +32,6 @@ export default function Home() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-    //     theme: `
-    //     Langue : ${langue.current.value}
-    //     Thème du chant : ${theme.current.value}
-    //     Emotion : ${emotion.current.value}
-    //     Nombre de couplets : ${couplet.current.value}
-    //     Avec des rîmes : ${rime.current.value}
-    //     Inspire toi de cette idée. : ${idea.current.value}
-        
-    
-    // Maintenant, écris une chanson en utilisant ces informations.
-
-    //     `,
         theme: `
         
         Comportes-toi comme un slameur professionnel et Écris-moi un slam ${langue.current.value.toLowerCase()} sur le thème de "${theme.current.value}" qui évoque une émotion de ${emotion.current.value.toLowerCase()} et Avec des rîmes.
