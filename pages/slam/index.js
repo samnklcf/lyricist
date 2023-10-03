@@ -28,7 +28,7 @@ export default function Home() {
     setSortie("");
     setLoader(true);
 
-    fetch("https://alissabackendfluidbysamnk.onrender.com/ecole", {
+    fetch("https://alissabackendfluidbysamnk-mbrn.onrender.com/ecole", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
